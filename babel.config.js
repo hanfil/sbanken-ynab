@@ -16,7 +16,7 @@ module.exports = (api) => {
 
   const plugins = [
     '@babel/plugin-proposal-class-properties',
-    'react-hot-loader/babel',
+    'react-refresh/babel',
   ];
 
   return {
