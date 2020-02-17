@@ -4,7 +4,7 @@
 
 .sby-accounts {
   display: grid;
-  grid-template-columns: variables.$nav-width 1fr;
+  grid-template-columns: auto 1fr;
   grid-template-rows: 1fr auto;
   height: 100%;
 }

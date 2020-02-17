@@ -11,6 +11,7 @@
   margin: 0;
   padding: 0;
   position: relative;
+  width: variables.$nav-width;
 
   h3 {
     font-size: 1rem;
@@ -159,5 +160,18 @@
 
   .sby-network-status {
     fill: colors.$medium-yellow;
+  }
+}
+
+@media (max-width: variables.$mobile-breakpoint) {
+  .sby-nav {
+    width: 100vw;
+
+    .sby-nav-footer {
+      border: none;
+      height: auto;
+      position: unset;
+      width: 100vw;
+    }
   }
 }

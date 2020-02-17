@@ -1,5 +1,6 @@
 @use '../shared/colors';
 @use '../shared/fonts';
+@use '../shared/variables';
 
 * {
   box-sizing: border-box;
@@ -142,5 +143,12 @@ textarea {
 
   & + & {
     margin-top: 1rem;
+  }
+}
+
+@media (max-width: variables.$mobile-breakpoint) {
+  .sby-app {
+    overflow: hidden auto;
+    width: 100vw;
   }
 }
